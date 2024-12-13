@@ -1,6 +1,11 @@
-.centered-item {
-    margin: 0 auto;  /* Center the specific item horizontally */
-    align-self: center; /* Center the specific item vertically */
+.rect {
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
   }
 
 .button {
@@ -14,7 +19,7 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
+
   button:hover {
     background-color: lightcoral;
   }

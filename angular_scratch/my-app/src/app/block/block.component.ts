@@ -8,7 +8,7 @@ import { LogService } from '../log.service';
 })
 export class BlockComponent implements OnInit {
 
-  logMessages: string[] = [];
+  //logMessages: string[] = [];
 
   constructor(private logService: LogService) {}
   /*logMessage() {
@@ -21,9 +21,9 @@ export class BlockComponent implements OnInit {
 
   ngOnInit() {
     // Subscribe to log messages from the service
-    this.logService.logMessages$.subscribe(messages => {
-      this.logMessages = messages;
-    });
+    //this.logService.logMessages$.subscribe(messages => {
+      //this.logMessages = messages;
+    //});
   }
 
 }

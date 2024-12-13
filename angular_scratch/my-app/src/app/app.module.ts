@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BlockComponent } from './block/block.component';
-import { ButtonComponent } from './button/button.component';
+import { Block2Component } from './block2/block2.component';
 import { LogService } from './log.service';
 
 @NgModule({
@@ -13,7 +13,7 @@ import { LogService } from './log.service';
     AppComponent,
     HomeComponent,
     BlockComponent,
-    ButtonComponent
+    Block2Component,
   ],
   imports: [
     BrowserModule,
@@ -23,7 +23,7 @@ import { LogService } from './log.service';
     AppComponent,
     HomeComponent,
     BlockComponent,
-    ButtonComponent,
+    Block2Component,
 
   ],
   providers: [LogService],
