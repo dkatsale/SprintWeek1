@@ -1,0 +1,33 @@
+.container {
+    display: flex; flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;  /* Center horizontally */
+    align-items: center; 
+  }
+
+  .item {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(238, 145, 244);
+  }
+
+.header {
+    
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+  
+  }
+  .rect {
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+  }
+
+  

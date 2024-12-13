@@ -1,0 +1,20 @@
+.centered-item {
+    margin: 0 auto;  /* Center the specific item horizontally */
+    align-self: center; /* Center the specific item vertically */
+  }
+
+.button {
+    /*position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    background-color: lightslategrey;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightcoral;
+  }
