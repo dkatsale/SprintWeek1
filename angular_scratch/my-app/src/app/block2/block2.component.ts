@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedStateService } from '../shared-state.service';
 @Component({
   selector: 'app-block2',
   templateUrl: './block2.component.html',
@@ -6,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Block2Component implements OnInit {
 
-  constructor() { }
+  constructor(private sharedStateService: SharedStateService) { }
   message = "";
+  receivedSearchQuery = "";
   logMessage() {
     this.message = 'Button clicked!';
     console.log(this.message);  // Log to browser console
@@ -22,6 +24,9 @@ export class Block2Component implements OnInit {
   }
 
   ngOnInit(): void {
+    this.sharedStateService.searchQuery$.subscribe(query => {
+      this.receivedSearchQuery = query;
+    });
   }
 
 }
