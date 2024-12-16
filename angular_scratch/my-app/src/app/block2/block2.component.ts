@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { LogService } from '../log.service';
-import { BlockComponent } from '../block/block.component';
 @Component({
   selector: 'app-block2',
   templateUrl: './block2.component.html',
