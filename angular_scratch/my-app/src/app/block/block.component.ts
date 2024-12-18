@@ -26,7 +26,6 @@ export class BlockComponent implements OnInit {
 
   }
 
-
   /*logMessage() {
     const message = 'Button clicked!';
     console.log(message);  // Log to browser console
@@ -47,7 +46,6 @@ export class BlockComponent implements OnInit {
     this.apiService.postMessage(postData).subscribe({
       next: (response) => {
         console.log("POST request successful", response);
-
 
       },
       error: (error) => {
