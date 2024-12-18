@@ -22,7 +22,6 @@ public class GreetingController {
     }
     @GetMapping("/secret")
     public String secret() {
-<<<<<<< HEAD
     	String reversed = reverseString(secretMessage);
     	
         return reversed + ":from spring boot";
@@ -41,14 +40,7 @@ public class GreetingController {
     	
     	
     	return result;
-    	
-    	
-    		
-    	
-    	
-=======
-        return secretMessage;
->>>>>>> origin/main
+
     }
 
     /*@PostMapping("/greet")
