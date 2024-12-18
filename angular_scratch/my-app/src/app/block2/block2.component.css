@@ -1,0 +1,27 @@
+.rect {
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+  }
+
+  
+
+.button {
+    /*position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    background-color: lightslategrey;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: lightcoral;
+  }

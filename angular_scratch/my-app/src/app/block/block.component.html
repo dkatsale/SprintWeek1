@@ -1,0 +1,14 @@
+<div class="header">
+    <p>You searched for: {{searchQuery}} <br> From backend: {{replyQuery}}</p>
+    
+    
+</div>
+<div class="search-container">
+    <div class="search-bar">
+        <input type="text" [(ngModel)]="searchQuery" placeholder="Enter text here" class="input">
+        <button class="button" (click)="onClick()">Submit</button>
+    
+    </div>
+</div>
+
+

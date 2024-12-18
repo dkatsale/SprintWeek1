@@ -1,0 +1,55 @@
+.header {
+    
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+  
+  }
+
+.search-container {
+    display: flex;                     /* Use flexbox to align items */
+    align-items: center;               /* Vertically align input and button */
+    justify-content: space-between;     /* Distribute space between items */
+    width: 100%;                        /* Ensure the container takes full width */
+  }
+
+.search-bar {
+    display: flex;
+    column-gap: 14px;
+    row-gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  input[type="text"] {
+    border: solid 1px var(--primary-color);
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    width: 100%;
+  }
+  button {
+    display: flex;
+    padding: 10px;
+    border: solid 1px var(--primary-color);
+    background: red;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.2s ease; /* Smooth transition for all properties */
+    cursor: pointer;         
+    /*box-shadow: 0 4px #999;  */
+     
+  }
+
+  button:active {
+    transform: translateY(4px);        /* Push the button down 4px */
+    box-shadow: 0 2px #666;            /* Make the shadow smaller */
+    background-color: #45a049;         /* Darker green background when pressed */
+  }
+
+  button:hover {
+    background-color: lightcoral;
+  }
