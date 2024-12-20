@@ -1,14 +1,14 @@
 .container {
-    display: flex; flex-direction: column;
-    border: 1px solid black;
-    justify-content: center;  /* Center horizontally */
-    align-items: center; 
-  }
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
 
-  .item {
-    padding: 10px;
-    margin: 5px;
-    background-color: rgb(238, 145, 244);
-  }
-
-  
+.item {
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(49, 49, 50);
+  color: white;
+}
