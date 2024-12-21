@@ -1,0 +1,173 @@
+Here’s the updated weekly report with the challenges you mentioned:
+
+---
+
+## **Weekly Report**
+
+### **Week 1**
+
+---
+
+### **Completed Tasks**
+
+1. **Created a “Hello World” API with Spring Boot and tested with Postman:**
+   - Developed a simple Spring Boot application with a "Hello World" API endpoint.
+   - Successfully tested the API using Postman to ensure proper functionality.
+
+2. **Created a “Hello World” project on Angular:**
+   - Set up a basic Angular project to display a "Hello World" message on the front-end.
+
+3. **Created two components with two different background colors:**
+   - Developed two Angular components, each with distinct background colors to enhance the visual appeal.
+
+4. **Aligned components using Flexbox display:**
+   - Used CSS Flexbox to align the two components within the page, ensuring a responsive layout.
+
+5. **Added a button to one of the components:**
+   - Introduced a button within one of the components to allow user interaction.
+
+6. **Centered the button using Flexbox display:**
+   - Leveraged Flexbox to center the button within its parent component, maintaining consistency and responsiveness.
+
+7. **Clicking the button will display a message on the console:**
+   - Configured the button to trigger a message in the browser console upon being clicked.
+
+8. **Displayed this message within the same component:**
+   - Implemented logic to dynamically display the message inside the component’s view, rather than just the console.
+
+9. **Added the projects to a Git Repository:**
+   - Created Git repositories for both the Spring Boot API and the Angular application.
+   - Committed and pushed the projects to the repository for version control and submission.
+
+---
+
+### **Tasks to Finish**
+
+1. **Connect “Hello World” Angular App to call Spring Boot Backend:**
+   - Implement functionality to integrate the Angular front-end with the Spring Boot back-end.
+   - Ensure the Angular app can make HTTP requests to the Spring Boot API and receive data.
+
+2. **Implement `HttpClient` Observable in Angular:**
+   - Set up `HttpClient` to make HTTP requests from the Angular application.
+   - Use Observables to handle asynchronous data, ensuring smooth communication between the front-end and back-end.
+
+---
+
+### **Challenges Faced**
+1. **Misunderstanding the requirement:**
+   - Made things more challenging by not reading clearly where it said to display the message **on the same component** (not different components), which led to unnecessary complexity in my approach.
+
+2. **Overengineering Solutions:**
+   - Overcomplicated the implementation by using the **Mediator Pattern** to transfer log messages, which was unnecessary for the scope of this task.
+
+3. **Realized the scope:**
+   - Realized this was a **Sprint 2** assignment and not an end-to-end project, leading me to scale down some of the overly complex features I had initially planned.
+
+
+### **Plans for Next Week**
+- Focus on completing the connection between the Angular front-end and Spring Boot back-end.
+- Implement proper error handling and validation for the HTTP requests in the Angular app.
+- Continue refining the layout and user interface of the Angular application.
+
+---
+
+### **Week 2**
+
+#### **Completed Tasks**
+1. **Slowed down and started reading PDF books provided:**
+   - Took time to read the educational resources to deepen understanding.
+
+2. **Started the Angular project from scratch:**
+   - Began building the Angular project anew with better understanding.
+
+3. **Learned about Angular component structure, CSS, HTML, TypeScript syntax, structure, and hierarchy:**
+   - Gained knowledge about Angular’s architecture, CSS styling, and HTML/TypeScript syntax and structure.
+
+4. **Reviewed Angular 13 `app.module` syntax and structure:**
+   - Familiarized with the app.module setup and structure in Angular 13.
+
+5. **Learned about Observables in Angular:**
+   - Understood the concept of Observables and their usage in Angular.
+
+6. **Connected the “Hello World” Angular App to the Spring Boot Backend:**
+   - Integrated the Angular front-end with the Spring Boot backend, enabling communication between them.
+
+7. **Implemented `HttpClient` Observable:**
+   - Set up `HttpClient` in Angular to make asynchronous HTTP requests using Observables.
+
+8. **Added a text input form next to the button:**
+   - Added a text input field alongside the existing button in the Angular component.
+
+9. **Created a service with a BehaviorSubject to send the text to the other component:**
+   - Developed a service with a `BehaviorSubject` to share data between components.
+
+#### **Challenges**
+1. **Issues with imports and understanding the `app.module` structure:**
+   - Had trouble understanding Angular's import structure and the `app.module` setup initially, but quickly resolved it.
+
+2. **Issues with `httpClient` setup:**
+   - Faced configuration problems with `httpClient`, but managed to fix them after reviewing the setup.
+
+### **Plans for Next Week**
+- **Continue Angular-Spring Boot integration:**
+   - Focus on refining the communication between the Angular frontend and the Spring Boot backend.
+   - Ensure proper handling of HTTP requests and responses.
+- **Continue Angular-Spring Boot integration:**
+    - Impelement the Mediator pattern correctly this time using Behavior Subject
+---
+
+### **Week 3**
+
+#### **Completed Tasks**
+1. **Refined the Angular project and redesigned the UI:**
+   - Made design improvements and refined the structure of the Angular app.
+
+2. **Added a text input form next to the button (again):**
+   - Integrated a text input form alongside the button to improve functionality.
+
+3. **Created a service with a `BehaviorSubject` to send text to another component:**
+   - Continued using the `BehaviorSubject` service to share data between components.
+
+4. **Changed button functionality to call text from input form and send to Spring Boot backend:**
+   - Updated the button logic to send data from the text input field to the Spring Boot backend.
+   
+
+5. **Had the Spring Boot backend return a modified version of the message:**
+   - Implemented logic on the backend to modify and return the message received from the frontend.
+
+6. **Displayed two messages:**
+   - One message is from the form input, and the second message is the modified version returned by the Spring Boot backend.
+
+7. **Modified HTTP request code to be more modularized and easier to read:**
+   - Refactored the HTTP request code to improve readability and maintainability, making it more modular and organized.
+
+
+
+#### **Challenges**
+1. **Spring Boot not receiving messages initially:**
+   - Encountered issues where the backend wasn’t receiving messages, which was caused by incorrectly structured Angular POST requests. Once fixed, additional GET requests were used for better communication.
+
+2. **POST vs. GET requests to the frontend:**
+   - Realized that GET requests to the backend are more common, which solved issues with data not being returned as expected.
+
+3. **Chromedriver version mismatch:**
+   - Faced issues with `WebDriverManager` not downloading the correct version of Chromedriver, despite targeting the correct version of Chrome on the local machine.
+   - Explored potential solutions for automatic Chromedriver installation but may opt for a manual install for now.
+
+#### **Help Needed**
+- **Auto WebDriverManager Chromedriver installation:**
+   - Encountered issues with WebDriverManager auto-installing Chromedriver. Need assistance with ensuring the correct version is downloaded or consider using a manual installation.
+
+
+### **Plans for Next Week**
+- **Continue Angular-Spring Boot integration:**
+   - Focus on refining the communication between the Angular frontend and the Spring Boot backend.
+   
+- **Test and debug Chromedriver setup:**
+   - Resolve Chromedriver setup issues, either through WebDriverManager or manual installation.
+   
+- **Work on additional features:**
+   - Further UI improvements and functionality enhancement of the Angular app.
+   - Add more complex logic to the Spring Boot backend if needed.
+
+---

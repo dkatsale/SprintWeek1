@@ -1,0 +1,44 @@
+Week1
+1.
+Created a “Hello world” API with Springboot and test with Postman
+Created a “Hello world” project on Angular
+Created two components with 2 different background colors
+Aligned them using flex display
+Added a button to one of the components
+Centered the button using flex display
+Clicking the button will display a message on the console
+Display this message on the same component
+Add these projects to a Git Repository (?)
+
+
+week 2:
+1. slowed down on everything and started reading the pdf books given
+2. started the angular project from scratch
+3. Learned about angular component structure, css, html, typescript syntax, structure, and hierarchy
+4. Went back to angular 13 to learn the app.module syntax and structure
+5. Learned about what obserables are
+6. Learned about 
+7. Connected “Hello World” Angular App to call Springboot Backend
+8. Implemented httpClient Observable
+9. Added a text input form next to the button
+10. Created a service with a behavior subject to send the text to the other component
+Challenges: Initially had issues with some imports but quickly fixed it as I just didn't understand the app.module import structure at first
+2. Had issues with httpClient as well with some setup issues but managed to fix it
+
+
+week3:
+1. Went back and fixed my angular project again and made redesigned the UI
+2. Added a text input form next to the button
+3. Changed button functionality to call text from input form and send to springboot backend
+4. Had Spring boot backend return a modified version of the message
+5. Displayed the messages One message should be from the form, Second message should come from the backend
+
+Created a service with a behavior subject to send the text to the other component
+Changed button functionality to call text from input form and send to springboot backend
+Had Springboot backend return a modified version of the message but didn't start it yet
+
+Challenges: I
+1. Initially had issues with spring boot not receiving my backend message, but realized at first it was a problem with some angular post requests, fixed that, and then had to print my message to the console or a new get request on a different endpoint.
+2. Then sending it back I realized that you don't send POST requests to the frontend very often it's mostly GET to the backend which solved some of the issues not receiving it back.
+3. Having issues with setting up chromedriver, version mismatch. For some reason, the webdrivermanager is not downloading the correct version even though it is targetting the correct chrome version on my machine
+Might need help: with auto webdrivermanager chromedriver install, but will see may just use a manual install for now
